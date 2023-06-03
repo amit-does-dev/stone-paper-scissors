@@ -1,0 +1,120 @@
+#threeSigns {
+  /* margin-top: 32.9rem; */
+  font-size: 32px;
+}
+#first-part {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#rockSign {
+    position: relative;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 11em;
+  height: 11em;
+  background-color: white;
+  border-radius: 50%;
+  border: 1.2em solid #0074b6;
+  filter: drop-shadow(-1px 1px 11px rgba(0, 0, 0, 0.35));
+}
+
+#rockSign img {
+  max-width: 100%;
+  max-height: 100%;
+  background-color: white;
+  border-radius: 50%;
+}
+
+#scissorsSign {
+    position: relative;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 11em;
+  height: 11em;
+  background-color: white;
+  border-radius: 50%;
+  border: 1.2em solid #bd00ff;
+  filter: drop-shadow(-1px 1px 11px rgba(0, 0, 0, 0.35));
+}
+#scissorsSign img {
+  max-width: 100%;
+  max-height: 100%;
+  background-color: white;
+  border-radius: 50%;
+}
+
+#connectionLine1 {    
+  width: 8.2em;
+  height: 0em;
+  top: 39.3em;
+  border: 0.6em solid rgba(0, 0, 0, 0.64);
+  z-index: 3;
+}
+
+#second-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#line2{
+    width: 10.791em;
+    height: 0em;
+    left: 54.7em;
+    top: 44.7em;
+    
+    border: 0.6em solid rgba(0, 0, 0, 0.64);
+    transform: rotate(60.58deg);
+}
+
+#line3{
+    width: 10.791em;
+    height: 0em;
+    left: 73.996em;
+    top: 44em;
+    
+    border: 0.6em solid rgba(0, 0, 0, 0.64);
+    transform: rotate(120deg);
+}
+
+#partthree {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #paperSign {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    position: relative;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 11em;
+    height: 11em;
+    background-color: white;
+    border-radius: 50%;
+    border: 1.2em solid orange;
+    filter: drop-shadow(-1px 1px 11px rgba(0, 0, 0, 0.35));
+  }
+  
+  #paperSign img {
+    max-width: 100%;
+    max-height: 100%;
+    background-color: white;
+    border-radius: 50%;
+  }
+  
+#
+#
+#
+#
