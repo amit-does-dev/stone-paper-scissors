@@ -5,10 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Stone Paper Scissors</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="style-three-signs.css" />
-    <link href='https://fonts.googleapis.com/css?family=Dangrek' rel='stylesheet'>
-    <link rel="stylesheet" href="style-game-rules.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/style-three-signs.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Dangrek"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style-game-rules.css" />
+    <link rel="stylesheet" href="styles/first-click.css" />
     <script src="app.js" defer></script>
   </head>
 
@@ -33,73 +37,109 @@
         </div>
       </div>
     </div>
-<div id="second-line-of-the-main-page">
-  <div id="emptybox"></div>
-  <div id="middle-part">
-    <div id="threeSigns">
-      <div id="first-part">
-        <div id="rockSign">
-          <img src="images/rock.png" alt="rock icon" />
-        </div>
-        <div id="connectionLine1"></div>
-        <div id="scissorsSign">
-          <img src="images/scissors.png" alt="scissors icon" />
+    <!-- <div id="second-line-of-the-main-page">
+      <div id="emptybox"></div>
+      <div id="middle-part">
+        <div id="threeSigns">
+          <div id="first-part">
+            <div id="rockSign">
+              <img src="images/rock.png" alt="rock icon" />
+            </div>
+            <div id="connectionLine1"></div>
+            <div id="scissorsSign">
+              <img src="images/scissors.png" alt="scissors icon" />
+            </div>
+          </div>
+
+          <div id="second-part">
+            <div id="line2"></div>
+            <div id="line3"></div>
+          </div>
+          <div id="part-three">
+            <div id="paperSign">
+              <img src="images/paper.png" alt="paper icon" />
+            </div>
+          </div>
         </div>
       </div>
-  
-      <div id="second-part">
-        <div id="line2"></div>
-        <div id="line3"></div>
-      </div>
-      <div id="part-three">
-        <div id="paperSign">
-          <img src="images/paper.png" alt="paper icon" />
+      <div id="third-part">
+        <div id="game-rules-part">
+          <p id="x">x</p>
+          <h1>Game Rules</h1>
+          <div id="d11">
+            <div id="d1"></div>
+            <p id="r1">
+              Rock beats scissors, scissors beat paper and paper beats rock
+            </p>
+          </div>
+
+          <div id="d22">
+            <div id="d2"></div>
+            <p id="r2">
+              Agree ahead of time whether you'll count off "rock, paper,
+              scissors, shoot" or just "rock, paper, scissors."
+            </p>
+          </div>
+
+          <div id="d33">
+            <div id="d3"></div>
+            <p id="r3">
+              Use rock, paper, scissors to settle minor decisions or simply play
+              to pass the time
+            </p>
+          </div>
+
+          <div id="d44">
+            <div id="d4"></div>
+            <p id="r4">
+              If both players lay down the same hand, each player lays down
+              another hand
+            </p>
+          </div>
+          <div id="rules">RULES</div>
         </div>
+      </div>
+    </div> -->
+
+    <div id="mid-part-after-clicking"></div>
+    <div id="after-clicking">
+      <div id="mid-part-part1">
+        <div id="your-pick">YOU PICKED</div>
+        <div id="green3">
+          <div id="green2">
+            <div id="green1">
+              <div id="rockSign-left">
+                <img src="images/rock.png" alt="rock icon" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div id="your-pick">YOU PICKED</div>
+      <div id="rockSign-left">
+        <img src="images/rock.png" alt="rock icon" />
+      </div> -->
+
+      <div id="mid">
+        <div id="div1">YOU WIN</div>
+        <div id="div2">AGAINST PC</div>
+        <div id="play-again-button">PLAY AGAIN</div>
+      </div>
+      
+      <div id="mid-part-part3">
+        <div id="pc-picked">PC PICKED</div>
+        
+        <div id="green3">
+          <div id="green2">
+            <div id="green1">
+              <div id="paperSign-right">
+                <img src="images/paper.png" alt="paper icon" />
+              </div>
+            </div>
+          </div>
+        </div>
+        
       </div>
     </div>
-  </div>
-  <div id="third-part">
-    <!-- <div id="div-for-x">
-      
-    </div> -->
-    <div id="game-rules-part">
-        <p id="x">x</p>
-        <h1>Game Rules</h1>
-        <div id="d11">
-          <div id="d1"></div>
-          <p id="r1">
-            Rock beats scissors, scissors beat paper and paper beats rock
-          </p>
-        </div>
-  
-        <div id="d22">
-          <div id="d2"></div>
-          <p id="r2">
-            Agree ahead of time whether you'll count off "rock, paper, scissors,
-            shoot" or just "rock, paper, scissors."
-          </p>
-        </div>
-  
-        <div id="d33">
-          <div id="d3"></div>
-          <p id="r3">
-            Use rock, paper, scissors to settle minor decisions or simply play
-            to pass the time
-          </p>
-        </div>
-  
-        <div id="d44">
-          <div id="d4"></div>
-          <p id="r4">
-            If both players lay down the same hand, each player lays down
-            another hand
-          </p>
-        </div>
-        <div id="rules">RULES</div>
-      </div>
-      
-  </div>
-  
-</div>
   </body>
 </html>

@@ -15,9 +15,10 @@
   }
    */
   .container {
-    width: 800px;
-    margin: 0 auto;
+    width: 80px;
+    margin: 110 auto;
     padding: 20px;
+    background-color: aqua;
   }
   
   .title {

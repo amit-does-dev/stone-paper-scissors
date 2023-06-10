@@ -1,0 +1,154 @@
+#after-clicking {
+  
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  top: 30rem;
+}
+
+#mid-part-part1{
+  position: relative;
+}
+#your-pick,
+#pc-picked {
+  
+  background-color: transparent;
+  width: 113px;
+  height: 16px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  margin: 0 auto;
+  margin-bottom: 5.5rem;
+  z-index: 7;
+  margin-bottom: -2.9rem ;
+}
+
+#rockSign-left,
+#paperSign-right {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 14rem;
+  height: 14rem;
+  background-color: white;
+  border-radius: 50%;
+  border: 1.2rem solid #0074b6;
+  filter: drop-shadow(-1px 1px 11px rgba(0, 0, 0, 0.35));
+  margin: 0 auto;
+}
+
+#rockSign-left img,
+#paperSign-right img {
+  max-width: 100%;
+  max-height: 100%;
+  background-color: white;
+  border-radius: 50%;
+}
+
+#paperSign-right {
+  border: 1.2rem solid orange;
+}
+
+#mid {
+  margin: 0 auto;
+  background: transparent;
+  padding-top: 18rem;
+}
+
+#div1 {
+  background: transparent;
+  width: 190px;
+  height: 36px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 39px;
+  line-height: 46px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  margin: 0 auto;
+  margin-bottom: 1.2rem;
+}
+
+#div2 {
+  width: 168px;
+  height: 31px;
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  margin: 0 auto;
+  margin-bottom: 1.5rem;
+}
+
+#play-again-button {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  color: #6b6b6b;
+  width: 174px;
+  /* height: 44px; */
+  background: #ffffff;
+  border-radius: 9px;
+  text-align: center;
+  margin: 0 auto;
+  border: 1.4rem solid white;
+}
+
+#green3 {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 350px;
+
+  background: rgba(46, 154, 37, 0.39);
+  box-shadow: 0px 1px 62px rgba(0, 0, 0, 0.13);
+}
+#green2 {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 280px;
+  height: 280px;
+
+
+  background: rgba(29, 168, 43, 0.79);
+}
+
+#green1 {
+  border-radius: 50%;
+  width: 207px;
+  height: 207px;
+
+
+  background: #3b6720;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#after-clicking{
+  text-align: center;
+  display: flex;
+  margin-left: auto;
+}

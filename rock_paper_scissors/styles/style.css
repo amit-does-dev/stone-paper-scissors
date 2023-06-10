@@ -26,7 +26,7 @@
   height: 17.6rem;
   margin: 6.2rem 22rem;
   padding: 2rem; */
-} */
+/* } */
 
 html, body {
     width: 100%;
@@ -104,14 +104,14 @@ height: 13.2rem;
 
 span{
     width: 7.9rem;
-    height: 6.3rem;
+    height: 5.3rem;
     padding: 0;
     margin: 0;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 6.4rem;
-    line-height: 8rem;
+    font-size: 6rem;
+    line-height: 7rem;
     text-align: center;
     background-color: white;
     color: #252525;
