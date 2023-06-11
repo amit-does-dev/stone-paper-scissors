@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+*{
+    background-color:rgba(137,193,94,255) ;
+    margin-top: -2rem;
+}
+img{
+    height: 30rem;
+    width: 50rem;
+}
+#play-again-button{
+    /* margin: 0 auto; */
+}
+#hurray{
+    width: 464px;
+height: 86px;
+left: 436px;
+top: 422px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 91px;
+line-height: 107px;
+text-align: center;
+letter-spacing: 0.1em;
+
+}
+#won{
+    width: 457px;
+height: 48px;
+left: 442px;
+top: 533px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 31px;
+line-height: 48px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.1em;
+margin-top: 2.5rem;
+margin-bottom: 3rem;
+}
