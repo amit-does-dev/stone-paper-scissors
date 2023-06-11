@@ -2,7 +2,7 @@ document.documentElement.style.zoom = "80%";
 
 let after_clicking_stone_win = document.getElementById(
   "after-clicking-stone-win"
-);v
+);
 let after_clicking_paper_win = document.getElementById(
   "after-clicking-paper-win"
 );
